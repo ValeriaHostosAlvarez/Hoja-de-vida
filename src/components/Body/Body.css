@@ -1,0 +1,47 @@
+.Body{
+   padding: 300px 30px;
+   max-width: 800px;
+   max-height: 500px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+#perfil{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+
+}
+
+
+#nombres_completos{  
+  font-family: 'Playfair Display', serif;
+  font-weight: 400 bold;
+  text-align: center;
+  color: black;
+  font-size: 45px;
+  margin: 15px;
+}
+
+
+.ref i{
+    font-size: 1.5em;
+    color: #274257;
+    padding: 10px;
+}
+
+.rnom{
+    font-weight: 500;
+}
+
+.rcargo{
+    padding-left: 45px;
+}
+
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+   }
