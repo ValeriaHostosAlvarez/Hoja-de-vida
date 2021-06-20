@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    
     <Header />
     
     <section id="informacion">
@@ -18,12 +19,14 @@ ReactDOM.render(
 
     <section>
       <Nav />
-    </section>
+   </section>
 
-    
+  
     <section >
       <Footer />
     </section>
+
+    
 
   </React.StrictMode>,
   document.getElementById('root')
@@ -37,3 +40,4 @@ reportWebVitals();
 //<section id="experiencia">
    // <Educacion />
   //  </section>
+

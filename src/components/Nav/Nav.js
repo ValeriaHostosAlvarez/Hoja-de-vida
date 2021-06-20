@@ -1,41 +1,25 @@
 import './Nav.css';
+import {
+        BrowserRouter as Router,
+        Route,Switch,Link,Redirect
+        } from "react-router-dom";
 
 function Nav() {
   return (
-
+ <Router>
     <div className="Nav">
-        <div className="educacionx3"><h2 className="skills"><i class="fas fa-user-graduate"> EDUCACIÓN</i></h2>
-            <p className="year">2021 Ingeniero de Sistemas</p>
-            <p className="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p>
+       
+       <ul >
 
-            <p>2012 Bachiller</p>
-            <p className="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
+           <li id="menu_nav"><Link to='/Habilidades'> HABILIDADES </Link></li>
 
-        <div className="educacionx3"><h2 className="skills"><i class="fas fa-user-tie"> EXPERIENCIA LABORAL</i></h2>
-            <p className="year">2021 Ingeniero de Sistemas</p>
-                <p className="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                <p>2012 Bachiller</p>
-                <p className="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-
-        <div><h2 className="skills" ><i class="fas fa-user-graduate"> HABILIDADES</i></h2>
-            <p className="cursos">Diseno UX </p>
-            <progress class="progress is-primary" value="70" max="100"></progress>
-            <p className="cursos">Diseno IU</p>
-            <progress class="progress is-primary" value="70" max="100"></progress>
-            <p className="cursos">HTML Y CSS</p>
-            <progress class="progress is-primary" value="80" max="100"></progress>
-            <p className="cursos">JavaScript</p>
-            <progress class="progress is-primary" value="60" max="100"></progress>
-        </div>
+       </ul>
 
     </div>
+</Router>
+        
+
+
     );
 }
 export default Nav;
