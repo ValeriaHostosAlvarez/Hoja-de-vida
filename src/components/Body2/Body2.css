@@ -1,0 +1,50 @@
+.Body2{
+   padding: 20px;
+   max-width: 800px;
+   width: 100%;
+   height: 600px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  justify-content: flex-end;
+  margin-right:10px;
+
+}
+
+.row{
+  color: black;
+  width: 70%;
+  display: flex;
+  margin-bottom: 25PX;
+
+} 
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #f4b4b7;
+    display: flex;
+  }
+
+.CircularProgressbar .CircularProgressbar-text {
+    stroke: black;
+    fill:black;
+  }
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: black;
+}
+
+
+ h3{  
+  margin-top: 20px;
+
+
+ }
+
+
+
+
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+   }

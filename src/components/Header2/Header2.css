@@ -1,0 +1,52 @@
+header{
+    max-width: 1000px;
+    width: 100%;
+    background-image: url("imagen2.svg");
+    background-position:right;
+    min-height: 250px;
+    max-height:250px;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+  /*  display: flex;  */
+   /* flex-direction: right; */
+}
+
+#titulo_habilidades{
+    color: #b38150;
+    font-size: 30px;
+    text-align: left;
+    margin: 40px;
+}
+
+.foto img{
+   
+    max-width: 180px;
+    width: 100%;
+    border-radius: 20%;
+    background-color:#f4b4b7; 
+    padding-bottom: 25px; 
+    padding-top:25px;
+    padding-left: 40px;
+    padding-right: 40px; 
+ /*   display: flex; */
+  justify-content: center;
+    flex-direction: column;
+}
+
+.foto{
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.texto h1{
+    font-weight: 500;
+}
+
+
+
+.texto{
+    flex-basis: 60%;
+ }
+
+

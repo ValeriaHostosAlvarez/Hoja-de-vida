@@ -1,4 +1,5 @@
 import './Nav.css';
+import Skills from '../../pages/Skills'
 import {
         BrowserRouter as Router,
         Route,Switch,Link,Redirect
@@ -11,7 +12,7 @@ function Nav() {
        
        <ul >
 
-           <li id="menu_nav"><Link to='/Habilidades'> HABILIDADES </Link></li>
+           <li id="menu_nav"><Link to='/Habilidades' onClick={() => {window.location.href="/Habilidades"}}> HABILIDADES </Link></li>
 
        </ul>
 

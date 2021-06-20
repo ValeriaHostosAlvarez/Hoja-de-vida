@@ -1,20 +1,23 @@
 footer .footer{
     max-width: 800px;
+    height: 250px;
     width: 100%;
     background-image: url("imagen1.svg");
-    margin-top: 30px;
- /*   min-height: 250px; */
     background-repeat: no-repeat;
     padding: 30px;
     display: flex;
-    max-height: 350px;
+    justify-content: flex-end;
+
 }
 
 
 #Contacto{
-    text-align: center;
     color: #b76e22;
     font-weight: bold;
+    font-size: 25px;
+    margin-top: 120px;
+    justify-content: center;
+
 }
 
 .info i{
@@ -40,8 +43,8 @@ footer .footer{
 }
 
 h3{
-  font-weight: 400px;
   text-align: center;
+
 }
 
 

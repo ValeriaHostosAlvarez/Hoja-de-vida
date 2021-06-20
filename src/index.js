@@ -1,33 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './components/Header/Header';
-import Body from './components/Body/Body';
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
+import Home from './pages/Home'
+import Skills from './pages/Skills'
 import reportWebVitals from './reportWebVitals';
+
+import {
+        BrowserRouter as Router,
+        Route,Switch,Link,Redirect
+        } from "react-router-dom";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <Header />
-    
-    <section id="informacion">
-      <Body />
-    </section>
-
-    <section>
-      <Nav />
-   </section>
-
-  
-    <section >
-      <Footer />
-    </section>
-
-    
-
+  <Router>
+  <Switch>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/Habilidades" component={Skills} />
+  </Switch>
+  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -36,8 +27,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-//<section id="experiencia">
-   // <Educacion />
-  //  </section>
 

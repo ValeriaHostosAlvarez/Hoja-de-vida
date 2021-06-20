@@ -2,7 +2,7 @@ header{
     max-width: 1000px;
     width: 100%;
     background-image: url("imagen2.svg");
-    background-image: content-right;
+    background-position:right;
      
   /*  margin: auto;  */
     min-height: 250px;
@@ -10,7 +10,6 @@ header{
     background-repeat: no-repeat;
     padding: 30px 20px;
   /*  display: flex;  */
-    flex-direction: right;
 }
 
 #titulo_tecnico{
